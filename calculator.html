@@ -18,6 +18,10 @@ function quadratic() {
 	var num = document.getElementById("n1");
 	num.value = Math.pow(num.value, 4);
 }
+function xesim() {
+	var num = document.getElementById("n1");
+	num.value = 1/num.value;
+}
 </script>
 </head>
 <body>
@@ -27,8 +31,9 @@ function quadratic() {
 	<p>
 	<button onclick="sqrt()"> x^2 </button>
 	<button onclick="cube()"> x^3 </button>
-	<button onclick="sine()"> sin(x) </button>
 	<button onclick="quadratic()"> x^4 </button>
+	<button onclick="sine()"> sin(x) </button>
+	<button onclick="xesim()"> 1/x </button>
 	</p>
 </body>
 </html>
